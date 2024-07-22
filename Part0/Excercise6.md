@@ -1,13 +1,14 @@
 ```mermaid
-  sequenceDiagram
+sequenceDiagram
     participant browser
     participant server
 
-    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa.
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/spa
     activate server
     server-->>browser: spa file
     deactivate server
 
-//It only reload the spa file to get changes
+    %% It only reloads the spa file to get changes
+
 
 ```
