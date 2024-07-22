@@ -7,6 +7,7 @@
     activate server
     server-->>browser: spa file
     deactivate server
+
 //It only reload the spa file to get changes
 
 ```
