@@ -5,7 +5,7 @@
   
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/notes
     activate server
-    server-->>browser: HTML document
+    server-->> browser: HTML document
     desactivate server
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
